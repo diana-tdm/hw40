@@ -6,7 +6,7 @@ import List from "../components/List";
 import Modal from "../components/Modal";
 
 const APIKEY = "bcab767d";
-const API = `http://www.omdbapi.com/?apikey=${APIKEY}&`;
+const API = `https://www.omdbapi.com/?apikey=${APIKEY}&`;
 
 export default function App() {
   const [films, setFilms] = React.useState([]);
